@@ -3,7 +3,12 @@
         "type": "separator",
         "title": "Путеводитель"
   },
-  "index": "🌞О сервере",
+  "index": {
+    "title": "🌞О сервере",
+    "theme": {
+      "breadcrumb": false
+    }
+  },
   "map": {
     "title": "🗺️Карта сервера",
     "href": "http://map.sunlightmc.fun:25697/",

@@ -2,9 +2,7 @@ import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
-  useNextSeoProps() {
-    title: "SunLight - полуванильный сервер"
-  },
+  useNextSeoProps: () => ({ title: 'SunLight - полуванильный сервер' }),
   head: (
       <>
           <link rel='icon' type='image/x-icon' href='/assets/sunlightlogo.ico' />
@@ -20,15 +18,15 @@ const config: DocsThemeConfig = {
   ),
   chat: { link: 'https://discord.gg/4rH2DuYYEN' },
   docsRepositoryBase: 'https://google.com/',
-  themeSwitch: {
-    useOptions() {
-      return {
-        light: 'Светлая',
-        dark: 'Тёмная',
-        system: 'Как в системе'
-      }
-    }
-  },
+  // themeSwitch: {
+  //   useOptions() {
+  //     return {
+  //       light: 'Светлая',
+  //       dark: 'Тёмная',
+  //       system: 'Как в системе'
+  //     }
+  //   }
+  // },
   banner: {
     key: '2.0-release',
     text: (

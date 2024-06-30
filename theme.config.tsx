@@ -16,10 +16,24 @@ const config: DocsThemeConfig = {
           <h1 style={{ marginLeft: '0.5rem', fontWeight: 600 }}>MagmaMC</h1>
       </>
   ),
-  chat: { link: 'hhttps://discord.gg/4rH2DuYYEN' },
+  chat: { link: 'https://discord.gg/4rH2DuYYEN' },
   docsRepositoryBase: 'https://google.com/',
   themeSwitch: {
-      useOptions: () => ({ dark: 'Тёмная', light: 'Светлая', system: 'Как в системе' }),
+    useOptions() {
+      return {
+        light: 'Светлая',
+        dark: 'Тёмная',
+        system: 'Как в системе'
+      }
+    }
+  },
+  banner: {
+    key: '2.0-release',
+    text: (
+      <a href="https://discord.gg/4rH2DuYYEN" target="_blank">
+        🎉 Открытие уже совсем скоро! Не пропусти →
+      </a>
+    )
   },
   search: {
       emptyResult: (

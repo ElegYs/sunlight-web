@@ -1,7 +1,9 @@
 {
+  "-- Info": {
+        "type": "separator",
+        "title": "Путеводитель"
+  },
   "index": "🌞О сервере",
-  "another": "",
-  "advanced": "Advanced (A Folder)",
   "map": {
     "title": "🗺️Карта сервера",
     "href": "http://map.sunlightmc.fun:25697/",

@@ -1,7 +1,7 @@
 {
-  "name": "nextra-docs-template",
-  "version": "0.0.1",
-  "description": "Nextra docs template",
+  "name": "sunlight-webpage",
+  "version": "1.0.0",
+  "description": "SunLight Minecraft server's web page",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

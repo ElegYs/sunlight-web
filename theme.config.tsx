@@ -44,7 +44,7 @@ const config: DocsThemeConfig = {
   ),
   navigation: { prev: true, next: true },
   feedback: { content: null },
-  footer: false,
+  footer: { content: null },
   editLink: false,
   toc: { title: 'Содержание' },
 };

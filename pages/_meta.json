@@ -9,6 +9,10 @@
       "breadcrumb": false
     }
   },
+  "-- Links": {
+        "type": "separator",
+        "title": "Полезные ссылки"
+  },
   "map": {
     "title": "🗺️Карта сервера",
     "href": "http://map.sunlightmc.fun:25697/",

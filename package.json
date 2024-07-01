@@ -2,6 +2,10 @@
   "name": "sunlight-webpage",
   "version": "1.0.0",
   "description": "SunLight Minecraft server's web page",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DoubleTrouble-rbxm/sunlight-web.git"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",

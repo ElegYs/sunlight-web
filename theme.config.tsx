@@ -17,7 +17,7 @@ const config: DocsThemeConfig = {
       </>
   ),
   chat: { link: 'https://discord.gg/4rH2DuYYEN' },
-  docsRepositoryBase: 'https://google.com/',
+  docsRepositoryBase: 'https://github.com/DoubleTrouble-rbxm/sunlight-web/tree/main/pages',
   // themeSwitch: {
   //   useOptions() {
   //     return {

@@ -2,7 +2,7 @@ import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
-  useNextSeoProps: () => ({ title: 'SunLight - полуванильный сервер' }),
+  useNextSeoProps: () => ({ title: 'Lumen - ванильный сервер' }),
   head: (
       <>
           <link rel='icon' type='image/x-icon' href='/assets/sunlightlogo.ico' />
@@ -13,10 +13,10 @@ const config: DocsThemeConfig = {
   logo: (
       <>
           <img src='/assets/sunlightlogo.png' width={32} height={32} />
-          <h1 style={{ marginLeft: '0.5rem', fontWeight: 600 }}>SunLight</h1>
+          <h1 style={{ marginLeft: '0.5rem', fontWeight: 600 }}>Lumen</h1>
       </>
   ),
-  chat: { link: 'https://discord.gg/4rH2DuYYEN' },
+  chat: { link: 'https://discord.gg/F6vkpzT8' },
   docsRepositoryBase: 'https://github.com/DoubleTrouble-rbxm/sunlight-web/tree/main/pages',
   // themeSwitch: {
   //   useOptions() {
@@ -30,7 +30,7 @@ const config: DocsThemeConfig = {
   banner: {
     key: '2.0-release',
     text: (
-      <a href="https://discord.gg/4rH2DuYYEN" target="_blank">
+      <a href="https://discord.gg/F6vkpzT8" target="_blank">
         🎉 Открытие уже совсем скоро! Не пропусти →
       </a>
     )

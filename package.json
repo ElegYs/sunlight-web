@@ -1,10 +1,10 @@
 {
-  "name": "sunlight-webpage",
+  "name": "lumen-webpage",
   "version": "1.0.0",
-  "description": "SunLight Minecraft server's web page",
+    "description": "Lumen Minecraft server's web page",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DoubleTrouble-rbxm/sunlight-web.git"
+    "url": "https://github.com/ElegYs/sunlight-web/edit/main/package.json"
   },
   "scripts": {
     "dev": "next dev",

@@ -6,7 +6,7 @@ const config: DocsThemeConfig = {
   head: (
       <>
           <link rel='icon' type='image/x-icon' href='/assets/sunlightlogo.ico' />
-          <meta content='/assets/sunlightlogo.png' property='og:image' />
+          <meta content='/assets/lumencraft.png' property='og:image' />
           <meta content='#ff9500' data-react-helmet='true' name='theme-color' />
       </>
   ),

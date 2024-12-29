@@ -23,8 +23,8 @@
     "title": "🗺️Карта сервера (временно недоступна)",
     "href": "https://www..fun/",
     "newWindow": false
-  }
-"map": {
+  },
+"modes": {
     "title": "🔎Рекомендованные моды для игры",
     "href": "https://discord.gg/rRaHvfA7",
     "newWindow": true

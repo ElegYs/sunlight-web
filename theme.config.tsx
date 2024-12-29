@@ -12,7 +12,7 @@ const config: DocsThemeConfig = {
   ),
   logo: (
       <>
-          <img src='/assets/sunlightlogo.png' width={32} height={32} />
+          <img src='/assets/lumencraft.png' width={32} height={32} />
           <h1 style={{ marginLeft: '0.5rem', fontWeight: 600 }}>Lumen</h1>
       </>
   ),

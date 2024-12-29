@@ -5,7 +5,7 @@ const config: DocsThemeConfig = {
   useNextSeoProps: () => ({ title: 'Lumen - ванильный сервер' }),
   head: (
       <>
-          <link rel='icon' type='image/x-icon' href='/assets/sunlightlogo.ico' />
+          <link rel='icon' type='image/x-icon' href='/assets/lumenlog.ico' />
           <meta content='/assets/lumencraft.png' property='og:image' />
           <meta content='#ff9500' data-react-helmet='true' name='theme-color' />
       </>
